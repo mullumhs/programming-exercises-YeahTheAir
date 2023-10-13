@@ -14,7 +14,9 @@ Main Tasks:
 
 Questions:
 1. What is a variable?
+Containers for storing data values.
 2. What is a string?
+A piece of text the computers writing.
 
 Extension Tasks:
 1. Try creating two string variables and using them in the same message.
