@@ -32,7 +32,7 @@ namespace ProgrammingExercisesIST
         static void Main(string[] args)
         {
             // Your code goes below here
-            Console.WriteLine("Finn");
+            Console.WriteLine("Hello World");
             Console.ReadLine();
             Console.WriteLine("Esiaha Smells Bad");
             Console.ReadLine();

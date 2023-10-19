@@ -16,8 +16,8 @@ Main Tasks:
 5. Make the program wait for input at the end using 'Console.ReadLine();'.
 
 Questions:
-1. What is the best data type for a whole number?
-2. What are some data types you could use for decimal numbers?
+1. What is the best data type for a whole number? I think the best data type is int.
+2. What are some data types you could use for decimal numbers? double is the best for decimals.
 
 Extension Tasks:
 1. Use Google to find out what other data types are in C#, then have a go at using them.
@@ -44,7 +44,15 @@ namespace ProgrammingExercisesIST
         static void Main(string[] args)
         {
             // Your code goes below here
+            int n = 2057916657;
+            double m = 1984769751257;
+            bool b = true;
+            Console.WriteLine(n+m);
+            Console.ReadLine();
 
+            
+            
+         
         }
     }
 }
