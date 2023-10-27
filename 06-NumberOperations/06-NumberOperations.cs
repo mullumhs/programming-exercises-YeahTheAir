@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Security.Cryptography.X509Certificates;
 
 /*
 ===============================================================================
@@ -50,11 +51,30 @@ namespace ProgrammingExercisesIST
         {
             // How to input a number from the user and store it in a variable 'x'
             Console.WriteLine("Please enter a number for X:");
-            double x = Convert.ToDouble(Console.ReadLine());
+            double X = Convert.ToDouble(Console.ReadLine());
 
             // Your code goes below here
+            Console.WriteLine("Please enter a number for Y:");
+            double Y = Convert.ToDouble(Console.ReadLine());
 
-        }
+            //add
+            Console.WriteLine($"{X} plus {Y} = {X + Y}");
+            Console.ReadLine();
+
+            //minus
+            Console.WriteLine($"{X} minus {Y} = {X - Y}");
+            Console.ReadLine();
+
+            //divide
+            Console.WriteLine($"{X} divide {Y} = {X / Y}");
+            Console.ReadLine();
+
+            //times
+            Console.WriteLine($"{X} times {Y} = {X * Y}");
+            Console.ReadLine();
+
+        }   
+           
     }
 }
 
