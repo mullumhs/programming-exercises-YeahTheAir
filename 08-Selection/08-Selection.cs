@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics.Eventing.Reader;
 
 /*
 ===============================================================================
@@ -53,7 +54,27 @@ namespace ProgrammingExercisesIST
             int mark = Convert.ToInt32(Console.ReadLine());
 
             // Your code goes below here
-
+            if (mark <= 20)
+            {
+                Console.WriteLine("Wetard");
+            }
+            else if (mark <= 50)
+            {
+                Console.WriteLine("Halfway there");
+            }
+            else if (mark <= 70)
+            {
+                Console.WriteLine("Good Job");
+            }
+            else if (mark <= 90)
+            {
+                Console.WriteLine("So close!!");
+            }
+            else if (mark <= 100)
+            {
+                Console.WriteLine("Well Done A+");
+            }
+            Console.ReadLine();
         }
     }
 }

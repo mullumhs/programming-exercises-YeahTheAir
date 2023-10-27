@@ -33,7 +33,7 @@ namespace ProgrammingExercisesIST
         static void Main(string[] args)
         {
             string my name = "Jeff";
-            Console.ReadLine(My name is + my name);
+            Console.ReadLine("My name is + my name");
             Console.WriteLine()
         {
     }

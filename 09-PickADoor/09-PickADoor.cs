@@ -46,7 +46,21 @@ namespace ProgrammingExercisesIST
             Console.WriteLine("Pick a Door: 1, 2 or 3");
 
             // Your code goes below here
+            int Door = (Convert.ToInt32(Console.ReadLine()));
 
+            if (Door == 1)
+            {
+                Console.WriteLine("You get exactly $3.81");
+            }
+            if (Door == 2)
+            {
+                Console.WriteLine("You get a mansion");
+            }
+            if (Door == 3)
+            {
+                Console.WriteLine("You get 1,000,000,000,000,000,000,000,000,000,000,000 Dollars");
+            }
+            Console.ReadLine();
         }
     }
 }
