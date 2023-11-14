@@ -34,6 +34,11 @@ namespace ProgrammingExercisesIST
         static void Main(string[] args)
         {
             // Call the methods here
+            SayHello();
+        }
+
+        private static void SayHello()
+        {
             
         }
 
