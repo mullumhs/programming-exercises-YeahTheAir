@@ -68,8 +68,13 @@ namespace ProgrammingExercisesIST
             int y = GetNumber();
 
             // Write your code here
+            string name = Console.ReadLine();
+            Console.WriteLine($"Hello {name}");
+            Console.ReadLine();
 
-            
+            Console.WriteLine($"{x} times {y} = {x * y}");
+            Console.WriteLine($"{x} plus {y} = {x + y}");
+
 
             // "Exit" method is called here
             Exit();
