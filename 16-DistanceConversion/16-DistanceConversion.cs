@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Runtime.Remoting;
 
 /*
 ===============================================================================
@@ -50,17 +51,47 @@ namespace ProgrammingExercisesIST
             string choice = MainMenu();
 
             // Write your code here
+            if (choice == "1")
+            {
+                double KM = GetDistance("KM");
+                double Miles = ConvertKMtoMiles(KM);
+                Console.WriteLine(KM);
+            }
 
+           else if (choice == "2")
+            {
+                double miles = GetDistance("Miles");
+                double KM = ConvertMilestoKM(miles);
+                Console.WriteLine(miles);
+            }
 
             // Wait for key press before exiting
             WaitForKeyPress();
         }
 
+        
+        
+            
+        
+
+
+
+
+
         // Create your functions here
+        private static double ConvertMilestoKM(double Miles)
+        {
+            return Miles / 1.6;
 
+        }
+        
+        private static double ConvertKMtoMiles(double KM)
+        {
+            return KM / 1.6;
 
-
-        // Asks the user to enter a distance in the unit specified
+        }
+      
+         // Asks the user to enter a distance in the unit specified
         private static double GetDistance(string unit)
         {
             Console.Write($"Enter distance (in {unit}) to convert: ");
